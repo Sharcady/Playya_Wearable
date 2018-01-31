@@ -30,7 +30,8 @@
 }
 
 .navbarStyle{
-    background-color:#5e3212;
+    background-color:#ffd35b;
+    opacity:0.85;
     height:10%;   
     align-items:flex-end;
 }
@@ -39,6 +40,7 @@
 }
 body div.solid{
     margin-top:2%;
+ 
     width:100%;    
 }
 body div.navbarBtns{
