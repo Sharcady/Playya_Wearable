@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Playya_Wearable</title>
+    <title>@ViewData["Title"] - Playya Wearable</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -17,32 +17,26 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbarStyle navbar-fixed-top navbarBtns">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="margin-left:30%">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Playya_Wearable</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                </ul>
+                
+            </div>      
+            <div class="navbar-collapse collapse navbarBtns row" style="text-align:center; font-size:400%; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif" >
+                <img src="~/images/kitty.png" width="4%" height="4%" style="margin-left:2%"/>
+                <span>PLAYYA WEARABLE</span>             
             </div>
         </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - Playya_Wearable</p>
-        </footer>
     </div>
 
     <environment include="Development">

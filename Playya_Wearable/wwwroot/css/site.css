@@ -5,11 +5,6 @@
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -33,3 +28,54 @@
         display: none;
     }
 }
+
+.navbarStyle{
+    background-color:#5e3212;
+    height:10%;   
+    align-items:flex-end;
+}
+.backgroundStyle{
+    background-color:#b47927
+}
+body div.solid{
+    margin-top:2%;
+    width:100%;    
+}
+body div.navbarBtns{
+    margin-left:90%;
+    font-size:25px;
+    color:#fea832;    
+}
+body div.a{
+    color:white;
+    margin-left:80%;
+}
+div btn-warning-style{
+    margin-left:80%;
+    padding-right:10px;
+}
+.infoSection {
+    background-color: #5e3212;   
+    color:#b47927;
+    
+   
+}
+.infoSection2 {
+    background-color: #b47927;
+    color: #5e3212;
+    
+ 
+}
+.infoSection-style{
+    margin-left:20%;
+    font-size:100%;
+    padding-bottom:2%;
+}
+header{
+    text-align:center;
+}
+
+
+
+
+    
